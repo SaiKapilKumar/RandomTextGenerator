@@ -72,4 +72,4 @@ def random_text():
 
 if __name__ == '__main__':
     # Run the app on all available IP addresses of the host
-    app.run(host='0.0.0.0', port=5000)
+    app.run()
