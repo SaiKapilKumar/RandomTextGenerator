@@ -1,0 +1,1 @@
+web: gunicorn app:random_text_api
