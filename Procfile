@@ -1,1 +1,1 @@
-web: gunicorn app:random_text_api
+web: gunicorn random_text_api:app
