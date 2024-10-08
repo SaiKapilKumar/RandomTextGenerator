@@ -5,7 +5,7 @@ import random
 import string
 import json
 
-random_text_api = Flask(__name__)
+app = Flask(__name__)
 
 # Client-Side HTML Template
 html_template = '''
@@ -72,4 +72,4 @@ def random_text():
 
 if __name__ == '__main__':
     # Run the app on all available IP addresses of the host
-    random_text_api.run()
+    app.run()
